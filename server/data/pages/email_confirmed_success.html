@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;k&lt;h@0 Email confirmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      *,
+      ::before,
+      ::after {
+        margin: 0;
+        padding: 0;
+        transition: 0.2s;
+        animation-timing-function: ease-in;
+        color: #fff;
+        font-family: "Fira Code", monospace;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #1B2127;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .content {
+        width: 300px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h4 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: normal;
+        line-height: 40px;
+      }
+      .name {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .success {
+        color: #00cc1c;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <h4>
+        <span class="name" id="nameEl"></span><br />
+        <span id="textEl"></span><br />
+        <span class="success" id="statusEl"></span><br />
+      </h4>
+    </div>
+    <script>
+      const nameText = "<k<h@0";
+      const textText = "Email confirmed";
+      const statusText = "successfully";
+      const typeText = () => {
+        let elem;
+        let l;
+        let res;
+        if ((l = nameEl.innerText.length) < nameText.length) {
+          elem = nameEl;
+          res = nameText;
+        } else if ((l = textEl.innerText.length) < textText.length) {
+          elem = textEl;
+          res = textText;
+        } else if ((l = statusEl.innerText.length) < statusText.length) {
+          elem = statusEl;
+          res = statusText;
+        } else return;
+        elem.innerText += res[l] === " " ? res.slice(l, l + 2) : res[l];
+        setTimeout(typeText, Math.floor(Math.random() * (60 - 10)) + 10);
+      };
+      typeText();
+    </script>
+  </body>
+</html>

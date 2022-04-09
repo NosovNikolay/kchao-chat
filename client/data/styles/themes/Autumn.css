@@ -1,0 +1,5 @@
+@import url("../styles.css");
+
+@define-color bg-color #FFFFFF;
+@define-color text-color #EDF1F1;
+@define-color text-secondary-color #4A7274;

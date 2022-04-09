@@ -1,0 +1,7 @@
+@import url("../styles.css");
+
+@define-color bg-color #1B2127;
+@define-color text-color #ffffff;
+@define-color text-secondary-color #8f8f8f;
+@define-color msg-color #5655b1;
+

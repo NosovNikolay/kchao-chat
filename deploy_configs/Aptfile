@@ -1,0 +1,4 @@
+clang
+pkg-config
+libmongoc-1.0-0
+libmongoc-dev
