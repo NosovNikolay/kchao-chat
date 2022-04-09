@@ -1,0 +1,9 @@
+[submodule "frameworks/libmx"]
+	path = frameworks/libmx
+	url = https://gitlab.com/hewstonfox/libmx.git
+[submodule "frameworks/dict-c"]
+	path = frameworks/dict-c
+	url = https://github.com/HewstonFox/dict-c.git
+[submodule "frameworks/requests-c"]
+	path = frameworks/requests-c
+	url = https://github.com/HewstonFox/requests-c.git
