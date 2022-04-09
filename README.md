@@ -10,7 +10,7 @@
 <h1 align="center">Our team:</h1>
 <p align="center">
     <img alt="vyushko" src="https://i.ibb.co/0YNwqs8/vova.jpg" height="130"/>
-    <img alt="mnosov" src="https://i.ibb.co/9gQZjbF/kolya.png" height="130"/>
+    <img alt="mnosov" src="https://camo.githubusercontent.com/1d29e3fc21a96eca9dad9810a24fec5a517c63b34d9d7fdceca43aef4bbec393/68747470733a2f2f692e6962622e636f2f3967515a6a62462f6b6f6c79612e706e67" height="130"/>
     <img alt="ayevtushenko" src="https://i.ibb.co/xF21vM8/andriy.jpg" height="130"/>
     <img alt="mreshetov" src="https://i.ibb.co/k51RLwY/misha.png" height="130"/>
     <img alt="mshcherban" src="https://i.ibb.co/WKcsWDw/mshcherban.png" height="130"/>
